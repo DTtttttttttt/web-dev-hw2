@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>IKEA</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="./index.html">
+        <img class="logo" src="./images/logo.png" alt="Главная IKEA" />
+      </a>
+      <nav class="menu">
+        <ul>
+          <li><a class="menu_link" href="./products.html">Товары</a></li>
+          <li><a class="menu_link" href="./rooms.html">Комнаты</a></li>
+          <li><a class="menu_link" href="./offers.html">Предложения</a></li>
+          <li><a class="menu_link" href="./ideas.html">Дизайн и идеи</a></li>
+          <li><a class="menu_link" href="./services.html">Услуги</a></li>
+        </ul>
+      </nav>
+      <form class="search_bar" role="search">
+        <button class="search_button" type="submit">
+          <img class="search_icon" src="./icons/search.svg" alt="Найти" />
+        </button>
+        <input
+          class="search_input"
+          type="search"
+          placeholder="Что вы ищете?"
+          required
+        />
+      </form>
+      <nav class="navbar">
+        <a class="navbar_link" href="./profile.html">
+          <img class="navbar_icon" src="./icons/user.svg" alt="Профиль" />
+          <span>Войти</span>
+        </a>
+        <a class="navbar_link" href="./favourites.html">
+          <img class="navbar_icon" src="./icons/heart.svg" alt="Избранное" />
+        </a>
+        <a class="navbar_link" href="./cart.html">
+          <img class="navbar_icon" src="./icons/basket.svg" alt="Корзина" />
+        </a>
+      </nav>
+    </header>
+    <main class="content">
+      <nav class="carousel">
+        <ul class="carousel_items">
+          <li class="carousel_item">
+            <a class="carousel_link" href="./storage.html">
+              <img src="./images/storage.png" alt="Шкаф" />
+              <span>Мебель для хранения</span>
+            </a>
+          </li>
+          <li class="carousel_item">
+            <a class="carousel_link" href="./organisers.html">
+              <img src="./images/organisers.png" alt="Коробка для хранения" />
+              <span>Хранение вещей</span>
+            </a>
+          </li>
+          <li class="carousel_item">
+            <a class="carousel_link" href="./beds.html">
+              <img src="./images/beds.png" alt="Кровать" />
+              <span>Кровати и матрасы</span>
+            </a>
+          </li>
+          <li class="carousel_item">
+            <a class="carousel_link" href="./sofas.html">
+              <img src="./images/sofas.png" alt="Диван" />
+              <span>Диваны и кресла</span>
+            </a>
+          </li>
+          <li class="carousel_item">
+            <a class="carousel_link" href="./kitchen.html">
+              <img src="./images/kitchen.png" alt="Кухня" />
+              <span>Кухня и бытовая техника</span>
+            </a>
+          </li>
+          <li class="carousel_item">
+            <a class="carousel_link" href="./kitchenware.html">
+              <img src="./images/kitchenware.png" alt="Кастрюля" />
+              <span>Кухонная посуда</span>
+            </a>
+          </li>
+          <li class="carousel_item">
+            <a class="carousel_link" href="./textiles.html">
+              <img src="./images/textiles.png" alt="Текстиль" />
+              <span>Текстиль и ковры</span>
+            </a>
+          </li>
+          <li class="carousel_item">
+            <a class="carousel_link" href="./tables.html">
+              <img src="./images/tables.png" alt="Стол и стулья" />
+              <span>Столы и стулья</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="hero">
+        <div class="hero_text">
+          <h1>Добро пожаловать в IKEA</h1>
+          <p>
+            Обновите любимый уголок дома. Начните с удобного дивана, добавьте
+            мягкий свет и освободите место для вещей, которыми пользуетесь
+            каждый день.
+          </p>
+          <a class="hero_link" href="./ideas.html">Посмотреть идеи</a>
+        </div>
+        <div class="hero_image">
+          <img src="./images/sofa.png" alt="Диван IKEA" />
+        </div>
+      </section>
+
+      <section class="promo">
+        <h2>Сейчас в IKEA</h2>
+        <div class="promo_items">
+          <a class="promo_item promo_gifts" href="./gifts.html">
+            <div class="promo_media">
+              <img src="./images/gifts.png" alt="Подарки" />
+            </div>
+            <div class="promo_caption">
+              <h3>Добавьте щепотку волшебства</h3>
+              <span class="promo_arrow"></span>
+            </div>
+          </a>
+          <a class="promo_item promo_prices" href="./affordable.html">
+            <h3>Доступные цены каждый день</h3>
+            <span class="promo_arrow"></span>
+          </a>
+          <a class="promo_item promo_kids" href="./alptall.html">
+            <div class="promo_media">
+              <img src="./images/alptall.png" alt="Мягкие игрушки" />
+            </div>
+            <div class="promo_caption">
+              <h3>Детская коллекция ALPTALL</h3>
+              <span class="promo_arrow"></span>
+            </div>
+          </a>
+          <a class="promo_item promo_family" href="./family.html">
+            <h3>Предложения IKEA Family</h3>
+            <span class="promo_arrow"></span>
+          </a>
+          <a class="promo_item promo_new" href="./new.html">
+            <h3>Новинки для дома</h3>
+            <span class="promo_arrow"></span>
+          </a>
+        </div>
+      </section>
+
+      <section class="ideas">
+        <h2>Идеи для дома</h2>
+        <div class="ideas_items">
+          <article class="ideas_item">
+            <img src="./images/beds.png" alt="Кровать" />
+            <div class="ideas_text">
+              <h3>Уютная спальня</h3>
+              <p>
+                Подберите кровать и текстиль, с которыми приятно начинать и
+                заканчивать день.
+              </p>
+              <a href="./bedroom.html">Идеи для спальни</a>
+            </div>
+          </article>
+          <article class="ideas_item">
+            <img src="./images/kitchen.png" alt="Кухонный гарнитур" />
+            <div class="ideas_text">
+              <h3>Удобная кухня</h3>
+              <p>
+                Организуйте рабочее место так, чтобы посуда и продукты всегда
+                были под рукой.
+              </p>
+              <a href="./kitchen.html">Подобрать кухню</a>
+            </div>
+          </article>
+          <article class="ideas_item">
+            <img
+              src="./images/organisers.png"
+              alt="Органайзеры для хранения"
+            />
+            <div class="ideas_text">
+              <h3>Порядок в мелочах</h3>
+              <p>
+                Соберите вещи, которые часто теряются, в коробки и органайзеры.
+              </p>
+              <a href="./organisers.html">Выбрать органайзеры</a>
+            </div>
+          </article>
+          <article class="ideas_item">
+            <img src="./images/tables.png" alt="Стол со стульями" />
+            <div class="ideas_text">
+              <h3>Место для обедов</h3>
+              <p>
+                Выберите стол, за которым хватит места и для быстрых завтраков,
+                и для гостей.
+              </p>
+              <a href="./tables.html">Посмотреть столы</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer_text">
+        <h2>Услуги IKEA</h2>
+        <p>Узнайте, как получить заказ или связаться с магазином.</p>
+      </div>
+      <nav class="footer_links">
+        <a href="./delivery.html">Доставка</a>
+        <a href="./store.html">Магазин</a>
+        <a href="./support.html">Поддержка</a>
+      </nav>
+    </footer>
+  </body>
+</html>
